@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+<Properties>
+	<Property name="runid">$${date:dd-MM-YYYY HH-mm-ss}</Property>-->
+	</Properties>
+	<Appenders>
+		<RollingFile name="FileAppender" fileName="logs\Log-${runid}.log"
+					 filePattern="${filename}/LogDemo-%d{HH-mm-ss-SSS}.Log"
+					 ignoreExceptions="false"
+					 append="true">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n</pattern>
+			</PatternLayout>
+			<SizeBasedTriggeringPolicy size="100 KB" />
+		</RollingFile>
+		<Console name="Console" target="SYSTEM_OUT">  <!-- Console name can be any and AppenderRef name shoulb be same as Console name-->
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+	
+		<Logger name="com.test.integration.mobile" level="trace" additivity="false"> <!-- Logger name is Package name and if additivity is true or removed then it will log twice-->
+			<AppenderRef ref="Console" /> <!-- this will log to Console-->
+			<AppenderRef ref="FileAppender" /> <!-- this will log to Log file-->
+		</Logger> <!-- this is Custom logger for mentioned pacakage -->
+		
+		<Root level="trace"> <!-- this will be common for all the classes-->
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileAppender" />
+		</Root>
+	</Loggers>
+</Configuration>

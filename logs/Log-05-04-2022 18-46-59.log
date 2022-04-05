@@ -1,0 +1,17 @@
+[INFO ] 2022-04-05 18:47:29.872 [main] BaseTest - Clicked on Skipped button
+[INFO ] 2022-04-05 18:47:30.638 [main] BaseTest - Clicked on Login button
+[INFO ] 2022-04-05 18:47:32.254 [main] BaseTest - user name entered
+[INFO ] 2022-04-05 18:47:34.638 [main] BaseTest - password entered
+[INFO ] 2022-04-05 18:47:35.483 [main] BaseTest - SignIn button clicked
+[INFO ] 2022-04-05 18:47:41.745 [main] BaseTest - Clicked on My Ticket
+[INFO ] 2022-04-05 18:47:43.665 [main] BaseTest - Clicked on Add new Ticket
+[INFO ] 2022-04-05 18:47:45.770 [main] BaseTest - Clicked on Priority
+[INFO ] 2022-04-05 18:47:49.241 [main] BaseTest - Priority selected
+[INFO ] 2022-04-05 18:47:49.559 [main] BaseTest - Clicked on Category
+[INFO ] 2022-04-05 18:47:51.623 [main] BaseTest - Category Selected
+[INFO ] 2022-04-05 18:47:52.481 [main] BaseTest - Subject added
+[INFO ] 2022-04-05 18:47:54.037 [main] BaseTest - Description added
+[INFO ] 2022-04-05 18:47:54.791 [main] BaseTest - Clicked on Choose File
+[INFO ] 2022-04-05 18:47:57.707 [main] BaseTest - Camera Selected
+[INFO ] 2022-04-05 18:48:00.639 [main] BaseTest - Photo Clicked
+[INFO ] 2022-04-05 18:48:05.762 [main] BaseTest - New Ticket Submitted

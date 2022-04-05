@@ -1,0 +1,10 @@
+2022-04-04 10:38:37.948 [main] INFO  android.app.utils.core.BaseTest - Clicked on Skipped button
+2022-04-04 10:38:38.831 [main] INFO  android.app.utils.core.BaseTest - Clicked on Login button
+2022-04-04 10:38:40.430 [main] INFO  android.app.utils.core.BaseTest - user name entered
+2022-04-04 10:38:42.343 [main] INFO  android.app.utils.core.BaseTest - password entered
+2022-04-04 10:38:43.202 [main] INFO  android.app.utils.core.BaseTest - SignIn button clicked
+2022-04-04 10:40:27.842 [main] INFO  android.app.utils.core.BaseTest - Clicked on Skipped button
+2022-04-04 10:40:28.581 [main] INFO  android.app.utils.core.BaseTest - Clicked on Login button
+2022-04-04 10:40:30.176 [main] INFO  android.app.utils.core.BaseTest - user name entered
+2022-04-04 10:40:32.033 [main] INFO  android.app.utils.core.BaseTest - password entered
+2022-04-04 10:40:33.411 [main] INFO  android.app.utils.core.BaseTest - SignIn button clicked
